@@ -363,7 +363,7 @@ def Prediction(ticker):
     for record in records:
         date = record["date"]
 
-     prediction = get_prediction(company_db_name[ticker],date)
+    prediction = get_prediction(company_db_name[ticker],date)
     # if (ticker == "AAPL"):
     #     prediction = 1
     # else:
